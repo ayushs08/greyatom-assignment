@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.js": "/atomic/static/js/main.bc056e70.chunk.js",
+    "main.js.map": "/atomic/static/js/main.bc056e70.chunk.js.map",
+    "runtime~main.js": "/atomic/static/js/runtime~main.fc7739a7.js",
+    "runtime~main.js.map": "/atomic/static/js/runtime~main.fc7739a7.js.map",
+    "static/js/2.cb357e35.chunk.js": "/atomic/static/js/2.cb357e35.chunk.js",
+    "static/js/2.cb357e35.chunk.js.map": "/atomic/static/js/2.cb357e35.chunk.js.map",
+    "index.html": "/atomic/index.html",
+    "precache-manifest.375bf0abd352010ca5743ffbcaf4719e.js": "/atomic/precache-manifest.375bf0abd352010ca5743ffbcaf4719e.js",
+    "service-worker.js": "/atomic/service-worker.js",
+    "static/media/logo.26ef1cbc.svg": "/atomic/static/media/logo.26ef1cbc.svg"
+  }
+}
