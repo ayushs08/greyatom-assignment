@@ -28,8 +28,8 @@ body {
 
 .grid {
   margin: 0 auto;
-  display: grid;
   padding: 4rem;
+  display: grid;
   grid-template-columns: repeat(auto-fit, 250px);
   gap: 2rem;
   justify-content: center;
