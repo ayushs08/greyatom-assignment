@@ -1,23 +1,57 @@
 import React from "react";
+import { oneOfType, arrayOf, node } from "prop-types";
 
-export default function Card({ img, title, description, progress }) {
+import findByType from "./findByType";
+
+function Header() {
+  return null;
+}
+function Body() {
+  return null;
+}
+function Footer() {
+  return null;
+}
+
+Header.defaultProps = { type: "Header" };
+Body.defaultProps = { type: "Body" };
+Footer.defaultProps = { type: "Footer" };
+
+function CardTemplate(props) {
+  const { children, className } = props;
+
+  const HEADER = findByType(children, "Header");
+  const BODY = findByType(children, "Body");
+  const FOOTER = findByType(children, "Footer");
+
   return (
-    <div class="card">
-      <div className="card-cover">
-        <img src={img} alt="" />
-      </div>
-      <div className="card-body">
-        <div className="content">
-          <div className="content__title">{title}</div>
-          <div className="content__description">{description}</div>
-          <div className="content__progress"></div>
+    <div className={`card ${className || ""}`}>
+      {HEADER && (
+        <div className={`card-header ${HEADER.props.className || ""}`}>
+          {HEADER.props.children}
         </div>
-      </div>
-      <div className="card-footer">
-        <button class="btn" onClick={() => alert("sdasdasd")}>
-          continue
-        </button>
-      </div>
+      )}
+      {BODY && (
+        <div className={`card-body ${BODY.props.className || ""}`}>
+          {BODY.props.children}
+        </div>
+      )}
+      {FOOTER && (
+        <div className={`card-footer ${FOOTER.props.className || ""}`}>
+          {FOOTER.props.children}
+        </div>
+      )}
     </div>
   );
 }
+
+CardTemplate.Header = Header;
+CardTemplate.Body = Body;
+CardTemplate.Footer = Footer;
+
+export default CardTemplate;
+
+// Header, Body, Footer propTypes
+Header.propTypes = Body.propTypes = Footer.propTypes = {
+  children: oneOfType([arrayOf(node), node]).isRequired
+};
