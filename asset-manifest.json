@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/greyatom-assignment/static/css/main.c4f22847.chunk.css",
-    "main.js": "/greyatom-assignment/static/js/main.e4db04ce.chunk.js",
-    "main.js.map": "/greyatom-assignment/static/js/main.e4db04ce.chunk.js.map",
+    "main.css": "/greyatom-assignment/static/css/main.0195152c.chunk.css",
+    "main.js": "/greyatom-assignment/static/js/main.88dfbce9.chunk.js",
+    "main.js.map": "/greyatom-assignment/static/js/main.88dfbce9.chunk.js.map",
     "runtime~main.js": "/greyatom-assignment/static/js/runtime~main.6e08765c.js",
     "runtime~main.js.map": "/greyatom-assignment/static/js/runtime~main.6e08765c.js.map",
     "static/js/2.0710e316.chunk.js": "/greyatom-assignment/static/js/2.0710e316.chunk.js",
     "static/js/2.0710e316.chunk.js.map": "/greyatom-assignment/static/js/2.0710e316.chunk.js.map",
     "index.html": "/greyatom-assignment/index.html",
-    "precache-manifest.8744f52195aa06b41014d15d1a879e61.js": "/greyatom-assignment/precache-manifest.8744f52195aa06b41014d15d1a879e61.js",
+    "precache-manifest.c9f26f4d3ac980e78202e70a51eb78fc.js": "/greyatom-assignment/precache-manifest.c9f26f4d3ac980e78202e70a51eb78fc.js",
     "service-worker.js": "/greyatom-assignment/service-worker.js",
-    "static/css/main.c4f22847.chunk.css.map": "/greyatom-assignment/static/css/main.c4f22847.chunk.css.map"
+    "static/css/main.0195152c.chunk.css.map": "/greyatom-assignment/static/css/main.0195152c.chunk.css.map"
   }
 }
