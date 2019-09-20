@@ -18,7 +18,7 @@ class App extends React.Component {
   sortCourses = this.sortCourses.bind(this);
 
   componentDidMount() {
-    fetch("http://api.myjson.com/bins/nxp6l")
+    fetch("https://api.myjson.com/bins/nxp6l")
       .then(res => res.json())
       .then(res =>
         this.setState({ courses: res, originalResponse: res, loading: false })
