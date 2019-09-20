@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "eaa1dc98f66e57d7bbd7438d85b96975",
+    "revision": "f0e92493dabd0b01bca875afc2aa6ca7",
     "url": "/greyatom-assignment/index.html"
   },
   {
-    "revision": "22432d7a4ba86f2bac9d",
+    "revision": "a105b9ca54fa37b5a165",
     "url": "/greyatom-assignment/static/css/main.0195152c.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/greyatom-assignment/static/js/2.0710e316.chunk.js"
   },
   {
-    "revision": "22432d7a4ba86f2bac9d",
-    "url": "/greyatom-assignment/static/js/main.88dfbce9.chunk.js"
+    "revision": "a105b9ca54fa37b5a165",
+    "url": "/greyatom-assignment/static/js/main.74267d3f.chunk.js"
   },
   {
     "revision": "994d42ab0faec0c64199",

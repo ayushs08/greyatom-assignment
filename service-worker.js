@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/greyatom-assignment/precache-manifest.c9f26f4d3ac980e78202e70a51eb78fc.js"
+  "/greyatom-assignment/precache-manifest.cd8d98353800fb9a1aadcd6e329f9db0.js"
 );
 
 self.addEventListener('message', (event) => {
