@@ -61,7 +61,9 @@ class App extends React.Component {
       case "completed":
         this.setState(
           {
-            courses: this.state.courses.filter(item => item.progress === 100)
+            courses: this.state.originalResponse.filter(
+              item => item.progress === 100
+            )
           },
           this.sortAfterFilter
         );
@@ -69,7 +71,7 @@ class App extends React.Component {
       case "not_completed":
         this.setState(
           {
-            courses: this.state.courses.filter(
+            courses: this.state.originalResponse.filter(
               item => item.progress > 0 && item.progress < 100
             )
           },
@@ -79,7 +81,9 @@ class App extends React.Component {
       case "not_started":
         this.setState(
           {
-            courses: this.state.courses.filter(item => item.progress === 0)
+            courses: this.state.originalResponse.filter(
+              item => item.progress === 0
+            )
           },
           this.sortAfterFilter
         );
